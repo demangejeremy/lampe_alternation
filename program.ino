@@ -1,5 +1,5 @@
 
-// Lampes allumées par alternances
+// Lampes allumées par alternance
 // By @DemangeJeremy
 
 // Déclaration des variables
