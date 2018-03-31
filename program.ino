@@ -28,9 +28,13 @@ void loop() {
   // On lance la boucle en allumant les lampes par alternance
   // Si l'interrupteur est fermé => On allume les lampes par alternance
   if (boutonEtat == HIGH) {
+    // On allume la lampe bleue
     digitalWrite(bleu, HIGH);
+    // On laisse allumer pendant 1000 milli-secondes (soit 1 seconde)
     delay(1000);
+    // On éteint la lampe bleue
     digitalWrite(bleu, LOW);
+    // On fait de même avec la lampe verte et les autres
     digitalWrite(vert, HIGH);
     delay(1000);
     digitalWrite(vert, LOW);
